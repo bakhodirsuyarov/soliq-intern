@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 37px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eaf4ff;
+  border-radius: 44px;
+}
+
+.header-left {
+  padding: 56px 0px 64px 56px;
+}
+
+.header-left_title {
+  color: #0b2441;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.header-left_title span {
+  margin-left: 8px;
+}
+
+.header-left_content {
+  width: 100%;
+  max-width: 456px;
+  color: #0b2441;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 56px;
+}
+
+.header-left_content span {
+  color: #2189ff;
+  position: relative;
+}
+
+.header-left_content span::after {
+  content: "";
+  position: absolute;
+  width: 245px;
+  height: 15px;
+  background-image: url(../../assets/hero-line.svg);
+  background-repeat: no-repeat;
+  left: 0;
+  top: 30px;
+}
+
+.header-left_btn {
+  background-color: #2189ff;
+  padding: 16px 36px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  outline: none;
+}
+
+.header-right img {
+  border-radius: 44px;
+}

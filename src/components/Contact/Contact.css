@@ -1,0 +1,73 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.contact-wrapper {
+  display: flex;
+  background: rgba(234, 244, 255, 1);
+  border-radius: 40px;
+  padding: 64px 81px 64px 56px;
+}
+
+.contact-left {
+  padding-right: 102px;
+  position: relative;
+}
+
+.contact-title {
+  color: rgba(11, 36, 65, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.contact-left p {
+  color: rgba(11, 36, 65, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 116px;
+  width: 340px;
+}
+
+.contact-left img {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+}
+
+.input-top {
+  width: 584px;
+  padding: 20px 24px;
+  border: 1px solid rgba(33, 137, 255, 0.4);
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 24px;
+}
+
+.input-bottom {
+  width: 280px;
+  padding: 20px 24px;
+  border: 1px solid rgba(33, 137, 255, 0.4);
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 48px;
+}
+
+.input-bottom:first-child {
+  margin-right: 24px;
+}
+
+.contact-right button {
+  padding: 16px 36px;
+  background: rgba(33, 137, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.5;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
